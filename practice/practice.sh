@@ -14,3 +14,9 @@ echo
 read -sp "Enter your desired password: $password_digest"
 echo
 echo "your password has been saved."
+
+echo "What are your favorite foods? "
+
+read -a foods
+
+echo "I will order ${foods[0]}, ${foods[1]}, ${foods[2]} from Postmates."
