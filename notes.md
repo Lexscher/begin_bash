@@ -40,4 +40,54 @@
 | arg1 -gt arg2   | the first argument is greater than the second argument.             |
 | arg1 -ge arg2   | the first argument is greater than or equal to the second argument. |
 
-#### [🔝](#navigation)
+### [🔝](#bash-scripting-and-shell-notes)
+
+## Conditionals
+
+### IF Statements
+
+```bash
+#!/bin/bash
+
+CURRENT_USER="dev"
+
+if [ "$CURRENT_USER" = "dev" ]
+then
+  echo "You are a dev!"
+fi
+```
+
+### IF/ELSE Statements
+
+```bash
+#!/bin/bash
+
+CURRENT_USER="batman"
+
+if [ "$CURRENT_USER" = "batman" ]
+then
+  echo "You are Batman!"
+else
+  echo "You are not Batman!"
+fi
+```
+
+### IF/ELSE IF/ELSE Statements
+```bash
+#!/bin/bash
+
+CURRENT_USER="spiderman"
+
+if [ "$CURRENT_USER" = "thanos" ]
+then
+  echo "current user says: \"I am inevitable!\""
+elif [ "$CURRENT_USER" = "ironman" ]
+then
+  echo "current user says: \"I am Iron-Man!\""
+else
+  echo "current user says: \"I don't feel so good...\""
+fi
+```
+
+### [🔝](#bash-scripting-and-shell-notes)
+
