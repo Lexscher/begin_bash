@@ -1,6 +1,14 @@
 # Bash Scripting and Shell notes
 
-## File Operators
+## Navigation
+
+- [operators](## Operators)
+- [conditional statements](## Conditionals)
+- [loops](## Loops)
+
+## Operators
+
+### File Operators
 
 | Operator  | Returns **_True_** if the file... |
 |---------- |---------------------------------- |
@@ -12,7 +20,7 @@
 | -w <file> | is writable by you.               |
 | -x <file> | is executable by you.             |
 
-## String Operators
+### String Operators
 
 | Operator           | Returns **_True_** if the...  |
 |------------------- |-----------------------------  |
@@ -21,7 +29,7 @@
 | STRING1 = STRING2  | strings are equal.            |
 | STRING1 != STRING2 | strings are not equal.        |
 
-## Arithmetic Operators
+### Arithmetic Operators
 
 | Operator        | Returns **_True_** if...                                            |
 |---------------- |-------------------------------------------------------------------- |
@@ -31,3 +39,5 @@
 | arg1 -le arg2   | the first argument is less than or equal to the second argument.    |
 | arg1 -gt arg2   | the first argument is greater than the second argument.             |
 | arg1 -ge arg2   | the first argument is greater than or equal to the second argument. |
+
+#### [🔝](## Navigation)
