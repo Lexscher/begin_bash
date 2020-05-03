@@ -2,9 +2,9 @@
 
 ## Navigation
 
-- [operators](## Operators)
-- [conditional statements](## Conditionals)
-- [loops](## Loops)
+- [operators](#operators)
+- [conditional statements](#conditionals)
+- [loops](#loops)
 
 ## Operators
 
@@ -40,4 +40,4 @@
 | arg1 -gt arg2   | the first argument is greater than the second argument.             |
 | arg1 -ge arg2   | the first argument is greater than or equal to the second argument. |
 
-#### [🔝](## Navigation)
+#### [🔝](#navigation)
